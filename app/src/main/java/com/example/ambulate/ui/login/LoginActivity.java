@@ -5,6 +5,7 @@ import android.app.Activity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -25,6 +26,7 @@ import android.widget.Toast;
 import com.example.ambulate.R;
 import com.example.ambulate.ui.login.LoginViewModel;
 import com.example.ambulate.ui.login.LoginViewModelFactory;
+import com.example.ambulate.ui.main.MainActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -123,6 +125,8 @@ public class LoginActivity extends AppCompatActivity {
         String welcome = getString(R.string.welcome) + model.getDisplayName();
         // TODO : initiate successful logged in experience
         Toast.makeText(getApplicationContext(), welcome, Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
     private void showLoginFailed(@StringRes Integer errorString) {
