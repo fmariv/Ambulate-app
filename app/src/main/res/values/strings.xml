@@ -9,8 +9,15 @@
     <string name="invalid_username">El correu no és vàlid</string>
     <string name="invalid_password">La contrasenya ha de tenir més de 5 caràcters</string>
     <string name="login_failed">"No s'ha pogut iniciar sessió"</string>
-    <!-- Strings related to the main menu -->
+    <!-- Strings related to the home page -->
     <string name="walk_button">Iniciar registre</string>
     <string name="map_button">Veure mapa</string>
     <string name="statistics_button">Estadístiques</string>
+    <string name="menu">Menú</string>
+    <!-- Strings related to the navigation drawer -->
+    <string name="menu_about">Termes d\'ús</string>
+    <string name="menu_help">Ajuda</string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+
 </resources>
