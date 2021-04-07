@@ -3,6 +3,7 @@ package com.example.ambulate.ui.main;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toolbar;
 
 import com.example.ambulate.R;
 
@@ -13,4 +14,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
 }
